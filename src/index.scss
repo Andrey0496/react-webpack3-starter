@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+@import './styles/colors';
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.app-wrapper{
+  height: 440px;
+  background-color: $primary-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .app-title {
+    color: white;
+  }
+
+}
+
+

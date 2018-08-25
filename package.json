@@ -1,15 +1,17 @@
 {
   "name": "react-webpack4-starter",
   "version": "1.0.0",
-  "description": "React  webpack 4 and babel starter",
+  "description": "React  webpack 3 and babel starter",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --hot",
+    "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production"
   },
   "author": "Andrey Castillo",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.18.0",
+    "normalize.css": "^8.0.0",
     "react": "^16.3.0",
     "react-dom": "^16.3.0"
   },
@@ -17,16 +19,23 @@
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.2",
     "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.9.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.7.0",
     "html-webpack-plugin": "^3.1.0",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.1",
     "webpack": "^4.4.1",
-    "webpack-cli": "^2.0.13",
-    "webpack-dev-server": "^3.1.1"
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
   }
 }
